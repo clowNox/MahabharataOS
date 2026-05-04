@@ -1,26 +1,134 @@
 # MahabharataOS
 
-MahabharataOS is a production-grade, autonomous, and learning operating system powered by an ensemble of specialized AI agents. It features an executive orchestration platform designed for multi-departmental task delegation, strategic campaign persistence, and human-in-the-loop oversight.
+An AI-powered pipeline that converts raw, unstructured thoughts into 
+publish-ready LinkedIn posts — without losing your voice.
+
+> Named after the Mahabharata's principle of structured strategy 
+> under chaos. Same logic. Applied to ideas.
+
+---
+
+## What It Does
+
+Most AI tools generate content for you.
+This system makes *you* generate better content — faster, 
+consistently, and in your own voice.
+
+**Input:** A raw thought (text or voice note)  
+**Output:** A structured, publish-ready LinkedIn post — under 30 minutes
+
+---
+
+## How It Works
+Raw Thought (Text / Voice)
+↓
+CEO Engine         → interprets intent, defines objective
+↓
+Delegation Engine  → breaks task into ordered steps
+↓
+Media Engine       → generates LinkedIn-ready drafts
+↓
+Case Study Engine  → adds real-world proof (where relevant)
+↓
+QA Layer           → removes generic AI tone, tightens voice
+↓
+Final Output       → ready to publish
+
+Each stage is modular. The system can extend beyond content 
+without rebuilding from scratch.
+
+---
+
+## Core Components
+
+**CEO Engine** — decision layer
+- Interprets user intent
+- Classifies and prioritizes the task
+- Defines the execution plan
+
+**Delegation Engine** — workflow layer
+- Breaks plan into discrete steps
+- Routes them to the right module in order
+
+**Media Engine** — content layer
+- Transforms ideas into structured posts
+- Preserves tone and voice
+- Generates multiple draft options
+
+**Case Study Engine** — credibility layer
+- Detects when proof strengthens the argument
+- Fetches relevant business examples
+- Integrates them into the draft
+
+**QA Layer** — quality layer
+- Strips generic AI phrasing
+- Improves readability
+- Maintains authenticity
+
+---
 
 ## Key Features
 
-- **Executive Orchestration Engine**: A robust platform for routing tasks across specialized agent departments (e.g., Research, Finance, Media).
-- **Agent Archetypes**: Features specialized character rosters with interactive risk-tolerance controls.
-- **Vidura Integrity Engine**: Provides high-fidelity, Dharma-aligned audits for all agentic outputs to ensure strategic and ethical alignment.
-- **The Chronicle (Autonomous Temporal Memory)**: A vector-based semantic memory layer enabling long-term context retention and agentic recall.
-- **Observable UI Dashboard**: A frontend interface for monitoring, searching, and strategically auditing past mission data.
-- **Campaign Persistence**: Full task and multi-day content campaign persistence backed by SQLite.
+- Structured idea-to-output pipeline
+- Modular, agent-based architecture
+- Human-in-the-loop at every stage
+- Campaign persistence via SQLite
+- Observable execution via UI dashboard
+
+---
+
+## Tech Stack
+
+| Layer    | Stack                          |
+|----------|-------------------------------|
+| Frontend | React / Next.js                |
+| Backend  | Python, FastAPI, SQLAlchemy    |
+| AI       | OpenAI / Claude APIs           |
+| Database | SQLite → PostgreSQL (planned)  |
+
+---
 
 ## Project Structure
 
-- `frontend/`: The observable UI dashboard and user interface.
-- `backend/`: The core orchestrator engine, AI integration layer, and database.
+frontend/   → UI dashboard and interaction layer
+backend/    → engines, orchestration, AI integration, database
+
+---
 
 ## Getting Started
 
-### Prerequisites
+**Prerequisites:** Node.js, Python 3.10+
 
-*   Node.js (for frontend)
-*   Python (for backend)
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
 
-*(Note: Detailed setup instructions to be added depending on exact configurations.)*
+# Frontend
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## Current Status
+
+Active focus:
+- Thought → LinkedIn post pipeline
+- Voice consistency across outputs
+- Case study integration
+- Sub-30-minute daily execution
+
+Planned:
+- Persistent memory (voice profile, recurring themes)
+- Research and communication workflows
+
+---
+
+## What This Is Not
+
+A prompt wrapper. A generic content generator. A chatbot.
+
+It is a structured execution pipeline for people who have 
+ideas and need a system — not a tool — to get them out.
