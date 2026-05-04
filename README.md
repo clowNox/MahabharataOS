@@ -123,12 +123,3 @@ Active focus:
 Planned:
 - Persistent memory (voice profile, recurring themes)
 - Research and communication workflows
-
----
-
-## What This Is Not
-
-A prompt wrapper. A generic content generator. A chatbot.
-
-It is a structured execution pipeline for people who have 
-ideas and need a system — not a tool — to get them out.
